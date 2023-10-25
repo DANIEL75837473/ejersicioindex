@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_2</title>
+</head>
+<body>
+    <center>
+        <h1>HOJA DE VIDA</h1>
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" width="200px">
+        <h2 style="background-color: rgb(158, 87, 87);">Datos Personales</h2>
+        <p>Nombres y Apellidos: Carlos Megia</p>
+        <p>Fecha de nacimiento: 20 de Diciembre de 1990 </p>
+        <p>Cedula de ciudadania: 1.678.568.537 de Medellin</p>
+        <p>Sexo: Masculino</p>
+        <p>Direccion: cll33 #65-23</p>
+        <p>Telefono: 38023898829</p>
+        <p>Correo: Carlosperez@gmail.com</p>
+        <h2 style="background-color: rgb(161, 88, 88);">Perfil Profesional</h2>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta iusto corporis nostrum quos, rerum distinctio amet ut labore modi ratione magni maxime sequi officia repudiandae omnis, culpa quibusdam facere? Ea.
+        Quia labore officiis possimus repudiandae at dignissimos deleniti, perspiciatis facilis ab quis, voluptates incidunt minima, iusto numquam ea! Doloremque voluptatum unde, ea vero sequi quasi quo id ducimus iure illo?
+        Inventore ab nisi laboriosam quisquam? Beatae, doloremque dicta dolore in sed voluptas pariatur assumenda corporis earum rerum veritatis perspiciatis. Esse quibusdam, ratione hic nemo nostrum explicabo exercitationem fugiat debitis earum.
+        Facilis perspiciatis odit quaerat soluta. Nihil ipsam ipsum non ad pariatur iusto fugiat sapiente ullam corporis quisquam, optio earum quasi tenetur laboriosam praesentium dolores. Dicta et deleniti at ducimus reprehenderit.
+        Dolorum fugit eligendi at ab dicta? Libero inventore placeat recusandae earum, numquam adipisci eum neque, minima voluptate reprehenderit illo temporibus cumque magni odit iste qui, deleniti nobis pariatur. Ea, pariatur.
+        <br>
+        <h2 style="background-color: rgb(170, 99, 99);">Formacion Academica</h2>
+        <strong>Bachiller Academico</strong>
+        <p>Colegio Los mangos</p>
+        <br>
+        <strong>Tecnologia</strong>
+        <p>SENA</p>
+        <br>
+        <strong>Educacion Superior</strong>
+        <p>Universidad de Antioquia</p>
+        
+    </center>
+</body>
+</html>
