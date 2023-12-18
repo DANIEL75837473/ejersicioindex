@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: black;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 686px;    
+    background-image: url('./que-putaso.jpeg');
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta la imagen al tamaño del elemento */
+    background-position: center;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+}
+
+.caja{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(168, 252, 252, 0.274);
+    height: 300px;
+}
+
+audio {
+    display: none;
+}
