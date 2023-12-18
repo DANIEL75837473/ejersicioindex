@@ -1,0 +1,65 @@
+.oscuro .theme-light {
+    background-color: #424242;
+}
+
+.oscuro {
+    background-color: #424242;
+}
+
+.oscuro .card-body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.card-body {
+    background-image: url("./imajenes/Espacio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-md-3 {
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.col-md-3:hover {
+    transform: scale(0.9);
+}
+
+h3 {
+    color: aliceblue;
+}
+
+img {
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.titulo {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 255, 0.733);
+    border: solid 1px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.titulo:hover {
+    transform: scale(0.8);
+}
+
+.btn.btn {
+    margin-top: 10px;
+}
