@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./porta.css">
 </head>
-<body style="background-image:url(https://e1.pxfuel.com/desktop-wallpaper/846/19/desktop-wallpaper-black-cat-eyes-dark-animals-cat-eyes.jpg); background-repeat: no-repeat;background-size:cover;">
-    <table border="1" align="center" style="width: 700px; color: white;">
-        <tr>
-            <td style="color: #334cff;" align="center"><h1>Actividades de Desarrollo</h1></td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <table align="center">
-        <tr>
-            <td style="width: 500px;">
-                <img  width="100%" src="./Screenshot 2023-10-24 at 19-59-05 Document.png " alt="">
-                <center><h4 style="color:#039be5;">Login</h4></center>
-                <center><p style="color: aliceblue; ">
-                    Login visual ):aun no funcional:(
-                </p></center>
-                <center><a href="https://daniel75837473.github.io/ejersicioindex/ejersicioindex.html" target="_blank" style="  color: rgb(209, 241, 69);">Login up</a></center>
-                <td style="width: 500px;">
-                    <img width="100%" src="./Screenshot 2023-10-24 at 20-09-08 Ejercicio_2.png" alt="">
-                    <center><h4 style="color:#039be5;">Hoja de vida</h4></center>
-                    <center><p style="color: aliceblue;">
-                        Hoja de vida ya personalisada
-                    </p></center>
-                    <center><a href="https://daniel75837473.github.io/ejersicioindex/hoja_de_vida.html" target="_blank" style="  color: rgb(209, 241, 69);">Login up</a></center>
-                    <td style="width: 250px;">
-                        <img width="100%" src="https://daniel75837473.github.io/ejersicioindex/hoja_de_vida.html" alt="">
-                        <img width="100%" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" alt="">
-                        <center><h4 style="color: #039be5;">Pagina de Instagram</h4></center>
-                            Login de instagram
-                        </p></center>
-                        <center><a href="https://daniel75837473.github.io/ejersicioindex/instagram.html" target="_blank" style="  color: rgb(209, 241, 69);">Login up</a></center><br>
-                        <img width="100%" src="./calculadora.png" alt="">
-                        <center><h4 style="color: #039be5;">Pagina de calculadora</h4></center>
-                        <center><p style="color: aliceblue;">
-                            calculadora
-                        </p></center>
-                        <center><a href="https://daniel75837473.github.io/ejersicioindex/calculadora/index.html" target="_blank" style="  color: rgb(209, 241, 69);">Login up</a></center>
 
-                        <img width="100%" src="./datos.png" alt="">
-                        <center><h4 style="color: #039be5;">Pagina de calculadora</h4></center>
-                        <center><p style="color: aliceblue;">
-                            calculadora
-                        </p></center>
-                        <center><a href="https://daniel75837473.github.io/ejersicioindex/datos/" target="_blank" style="  color: rgb(209, 241, 69);">Login up</a></center>
-            </td>
-        </tr>
-    </table>
+<body>
+    <div class="container">
+
+        <h1>Bienvenido a mi portafolio</h1>
+
+        <div class="col-md-12 ">
+            <select class="rounded w-100 bg-white mt-4" id="seleccion" onchange="oscuro()" >
+                <option value="a" selected>Tema</option>
+                <option value="0">oscuro</option>
+                <option value="1">claro</option>
+            </select>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body ">
+                        <h3>Login visual</h3>
+                        <img width="100%" src="./Screenshot 2023-10-24 at 20-09-08 Ejercicio_2.png" alt="">
+                        <a class="btn btn-outline-light" href="https://daniel75837473.github.io/ejersicioindex/ejersicioindex.html" target="_blank">Login up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+                        <h3>Hoja de vida</h3>
+                        <img src="" alt="">
+                        <a class="btn btn-outline-light" href="https://daniel75837473.github.io/ejersicioindex/hoja_de_vida.html" target="_blank">Login</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+                        <h3>Login de instagram</h3>
+                        <img width="100%" src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" alt="">
+                        <a class="btn btn-outline-light" href="https://daniel75837473.github.io/ejersicioindex/instagram.html" target="_blank">Login up</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h3>Calculadora</h3>
+                        <img src="./calculadora.png" alt="">
+                        <a class="btn btn-outline-light" href="https://daniel75837473.github.io/ejersicioindex/calculadora/index.html" target="_blank">Login up</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h3>Datos</h3>
+                        <img src="./datos.png" alt="">
+                        <a class="btn btn-outline-light" href="https://daniel75837473.github.io/ejersicioindex/datos/" target="_blank">Login up</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
