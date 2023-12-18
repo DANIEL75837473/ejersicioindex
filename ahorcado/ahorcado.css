@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+    
+    text-align: center;
+    width: auto;
+    height: 1024px;
+    background-image: url('./navidad.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+h2{
+    margin: 0%;
+    color: blue;
+}
