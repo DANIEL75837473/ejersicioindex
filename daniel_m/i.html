@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./i.css">
+    <title>Document</title>
+</head>
+
+<body class="theme-light" id="blanco">
+
+    <div id="container" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <select onchange="idioma()" class="rounded w-100 bg-white mt-4" id="idioma">
+                    <option value="a" selected>Idioma</option>
+                    <option value="es">Español</option>
+                    <option value="en">Ingles</option>
+                </select>
+            </div>
+            <div class="col-md-6 ">
+                <select class="rounded w-100 bg-white mt-4" id="seleccion" onchange="oscuro()" >
+                    <option value="a" selected>Tema</option>
+                    <option value="0">oscuro</option>
+                    <option value="1">claro</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body ">
+                        <img class="w-100" src="./images/hamburguesa-1.webp" alt="">
+                        <p class="precio">$ 8.900</p>
+                        <p class="producto" id="titulo-0">BBQ CRUNCH</p>
+                        <p class="descripcion" id="descripcion-0">1 Sandwich BBQ Crunch (1 Filete de pollo apanado)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-2.webp" alt="">
+                        <p class="precio">$ 15.900</p>
+                        <p class="producto" id="titulo-1">Kentucky Sandwich</p>
+                        <p class="descripcion" id="descripcion-1">Kentucky hamburguesa / Sandwich ( 1 Filete de pechuga de pollo apanado, peinillos)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-3.webp" alt="">
+                        <p class="precio">$ 15.900</p>
+                        <p class="producto" id="titulo-2">Combo BBQ Crunch</p>
+                        <p class="descripcion" id="descripcion-2">1 Sandwich BBQ Crunch (1 Filete de pollo apanado) + 1 Papa pequeña + 1 Gaseosa PET..</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-4.webp" alt="">
+                        <p class="precio">$ 16.900</p>
+                        <p class="producto" id="titulo-3">Kentucky Coronel Sandwich</p>
+                        <p class="descripcion" id="descripcion-3">1 Kentucky Coronel hamburguesa / Sandwich ( 1 Filete de pechuga de pollo apanado, Ensalada,....)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-5.webp" alt="">
+                        <p class="precio">$ 21.900</p>
+                        <p class="producto" id="titulo-4">Combo Kentucky Sandwich</p>
+                        <p class="descripcion" id="descripcion-4">1 Kentucky hamburguesa / Sandwich ( 1 Filete de pechuga de pollo apanado, peinillos,....)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4 ">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-6.webp" alt="">
+                        <p class="precio">$ 22.900</p>
+                        <p class="producto" id="titulo-5">Combo Kentucky Coronel Sandwich</p>
+                        <p class="descripcion" id="descripcion-5">1 Kentucky Coronel hamburguesa / Sandwich ( 1 Filete de pechuga de pollo apanado, Ensalada,....)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-7.webp" alt="">
+                        <p class="precio" >$ 23.900</p>
+                        <p class="producto" id="titulo-6">Sandwich Crispy BBQ</p>
+                        <p class="descripcion" id="descripcion-6">1 Sandwich Crispy BBQ ( 1 Filete de pechuga extra grande, triple empanizado, Cebollas crisp...)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <img class="w-100" src="./images/hamburguesa-8.webp" alt="">
+                        <p class="precio" >$ 29.900</p>
+                        <p class="producto" id="titulo-7">Combo Sandwich Crispy BBQ</p>
+                        <p class="descripcion" id="descripcion-7">1 Sandwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado,cebollacrisp..)</p>
+                        <button type="button" style="margin-top: 20px;" class="btn btn-outline-danger w-100">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+<script src="./i.js"></script>
+</body>
+
+</html>

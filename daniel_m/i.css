@@ -1,0 +1,46 @@
+
+/**/
+
+.oscuro .theme-light{
+    background-color: #424242;
+}
+
+.oscuro{
+    background-color: #424242;
+}
+
+.oscuro .card-body{
+    background-color: black;
+    color: white;
+}
+
+/**/
+
+p{
+    margin-top: 5px;
+}
+div{
+    border-radius: 5px;
+}
+
+.precio{
+    font-size: 15px;
+}
+
+.producto{ 
+    text-align:left;
+    height: 100px;
+    text-overflow:ellipsis;
+    font-size: 25px;
+}
+
+.descripcion{
+    height: 100px;
+    margin-top: 25px;
+    text-align:left;
+    line-clamp: 2;
+    overflow-y:scroll;
+}
+
+
+
