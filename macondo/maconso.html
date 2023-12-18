@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MACONDO</title>
+  <link rel="stylesheet" href="./macondo.css">
+</head>
+
+<body>
+
+  <div class="cuerpo">
+    <div class="caja1">
+      <p style="background-color: black;color: rgb(255, 0, 0);">episodio 1</p>
+      <p style="background-color: black;color:blue;">ingresa el numero de la opcion de lo que deseas comprar</p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);">opcion(1): pan de bono</p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);">opcion(2): tortilla</p>
+      <input id="opcion" type="number">
+      <p style="background-color: rgba(0, 0, 0, 0.596);" id="evento"><p style="background-color: rgba(0, 0, 0, 0.596);" id="saldo"></p></p>
+      <button onclick="comprar()">comprar</button><br>
+    </div>
+
+    <div class="caja2">
+      <p style="color: rgb(255, 0, 0);">episodio 2</p>
+      <p style="color: rgb(0, 38, 255);">llega a la sala de espera, y revisa su maleta que no cumple con el tamaño de
+        maleta de mano, la aerolínea tiene el tamaño normal para las maletas de mano, 55 cm (alto) x 40 cm (largo) x 20
+        cm (ancho), y Hildebrando que va a abordar tiene una maleta de 60 cm (alto) x 40 cm (largo)x 20x cm</p>
+      <input placeholder="Alto original" id="valor1" type="number">
+      <input placeholder="Largo original" id="valor2" type="number">
+      <input placeholder="Ancho original" id="valor3" type="number">
+      <p style="background-color: rgba(0, 0, 0, 0.562);" id="malet"></p>
+      <button onclick="maleta()">continuar</button><br><br>
+    </div>
+
+    <div class="caja3">
+      <p style="background-color: rgba(0, 0, 0, 0.562);color: rgb(255, 0, 0);">Episodio 3</p>
+      <p style="background-color: rgba(0, 0, 0, 0.322);color: rgb(255, 255, 255);">ahora que Hildebrando se dirige a la ciudad de Medellín, llega a las 2 am, y debe abordar 
+        a las 3 am para Macondo, se encuentra con el problema de que el wifi del aeropuerto 
+        está fallando, y necesita asegurar su reserva en el hotel para el siguiente día, caminando 
+        por el aeropuerto encuentra wifi, la red se llama " ElPassEs: 
+        01110010_01101001_01110111_01101001", pero la contraseña está cifrada en números 
+        binarios, además cobran 50.000 la hora.</p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: blue;">ingresa el numero binario separado por (_)</p>
+      <input id="binario" type="text" placeholder="introduce el binario">
+      <p style="background-color: rgba(0, 0, 0, 0.562);">el resultado es: <p style="background-color: rgba(0, 0, 0, 0.562);" id="resultado"></p></p>
+      <button onclick="convertir()">combertirbinarioAcaracter</button>
+    </div>
+
+    <div class="caja4">
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: rgb(255, 0, 0);">Episodio 4</p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: rgb(255, 255, 255);">Al llegar a Macondo, se da cuenta que todos hablan diferente, solo hablan con
+        la la vocal i
+        así que todo lo que dirá es con la vocal “i”pedir el taxi. Convertir: "Taxi me puede llevar al
+        hotel mariposas amarillas.
+      </p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: rgb(255, 186, 186);" id="cambio"></p>
+      <button onclick="ingresa_remplaza_valor()">Episodio 4</button>
+    </div>
+
+    <div class="caja5">
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: rgb(255, 0, 0);">Episodio 5</p>
+      <p style="background-color: rgba(0, 0, 0, 0.596);color: rgb(255, 255, 255);">cuando llega al hotel, el taxi, le pide que le 300.000 pesos, y el queda sorprendido, asi
+        que empieza a negociar con él, y le dice que, si le gana papel piedra o tijera, le pagara los 
+        300.000, pero si el taxista pierde, no le cobra nada. Solo será una ronda. Si hay empata, 
+        no pasa nada.
+        </p>
+      <button onclick="jugar('piedra')">Piedra</button>
+      <button onclick="jugar('papel')">Papel</button>
+      <button onclick="jugar('tijera')">Tijera</button>
+      <p style="background-color: rgba(0, 0, 0, 0.596);" id="resultado1"></p>
+    </div>
+
+    <div class="caja6">
+      <p style="color: rgb(255, 0, 0);">Episodio 6 Final</p>
+      <p style="color: blue;"></p>
+      <button onclick="episodio6()">episodio6</button>
+      <button onclick="location.reload(),finalizar()">finalizar juego</button>
+    </div>
+
+
+  </div>
+  <script src="./macondo.js"></script>
+</body>
+</html>
+

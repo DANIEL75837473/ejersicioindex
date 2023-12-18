@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo {
+    background-image: url('./macondo.jpg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 20px;
+    height: 900px;
+
+}
+
+.caja {
+    background-image: url('./macondo.jpg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(132, 0, 255, 0.274);
+    height: 400px;
+}
+
+.caja1{
+    background-image: url('./don_pepe.jpeg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px;
+}
+
+.caja2{
+    background-image: url('./aereo.jpeg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px; 
+}
+
+.caja3{
+    background-image: url('./medellin.jpg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px; 
+}
+
+.caja4{
+    background-image: url('./macondo.jpg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px; 
+}
+
+.caja5{
+    background-image: url('./taxi.jpg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px; 
+}
+
+.caja6{
+    background-image: url('./picina.jpeg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del elemento */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px; 
+}
+
+.boton {
+    margin-left: 50px;
+    border: solid 2px;
+    margin-top: 50px;
+    margin-right: 1000px;
+    border-color: rgb(209, 191, 191);
+    background-color: rgba(168, 159, 255, 0.327);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.boton:hover {
+    background-color: antiquewhite;
+    color: blue;
+}
+
+p {
+    color: antiquewhite;
+}
